@@ -1,0 +1,292 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"bookShelfModule"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Index.html",
+			"settings":
+			{
+				"buffer_size": 1224,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "npm",
+		"selected_items":
+		[
+			[
+				"npm",
+				"npm: List Installed Packages"
+			],
+			[
+				"Packa",
+				"Package Control: List Packages"
+			],
+			[
+				"npm ",
+				"npm: Install Package"
+			],
+			[
+				"np",
+				"npm: List Installed Packages"
+			],
+			[
+				"Pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Bower: Install",
+				"Bower: Install"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"	",
+				"Bower: Install"
+			],
+			[
+				"bow",
+				"Bower: Install"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 229.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground"
+	],
+	"file_history":
+	[
+		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/bootstrap.js",
+		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/bookShelf.directives.js",
+		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/bookShelf.services.js",
+		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/Controllers/AddBookController.js",
+		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/bookShelf.main.js",
+		"/C/Users/lnascimb/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/lnascimb/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/lnascimb/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/lnascimb/Documents/GitHub/ES6Sample/index.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES6Sample/.bowerrc",
+		"/C/Users/lnascimb/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"addBookForm",
+			"./bookShelf.main",
+			"angular.bootstrap",
+			"_ControllersBookShelfControllers",
+			"_controllersModuleName",
+			"Controllers",
+			"const INIT = new WeakMap();\nconst SERVICE = new WeakMap();\nconst TIMEOUT = new WeakMap();\n\nclass HomeController{\n  constructor($timeout, bookShelfSvc){\n    SERVICE.set(this, bookShelfSvc);\n    TIMEOUT.set(this, $timeout);\n    INIT.set(this, () => {\n      SERVICE.get(this).getActiveBooks().then(books => {\n        this.books = books;\n      });\n    });\n\n    INIT.get(this)();\n  }\n\n  markBookAsRead(bookId, isBookRead){\n    return SERVICE.get(this).markBookRead(bookId, isBookRead)\n      .then(() => {\n        INIT.get(this)();\n        this.readSuccess = true;\n        this.readSuccessMessage = isBookRead ? \"Book marked as read.\" : \"Book marked as unread.\";\n        TIMEOUT.get(this)(() => {\n          this.readSuccess = false;\n        }, 2500);\n      });\n  }\n\n  addToArchive(bookId){\n    return SERVICE.get(this).addToArchive(bookId)\n      .then(() => {\n        INIT.get(this)();\n        this.archiveSuccess = true;\n        TIMEOUT.get(this)(() => {\n          this.archiveSuccess = false;\n        }, 2500);\n      });\n  }\n}\n",
+			"pyv8",
+			"5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1216,
+								1216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.textarea":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ES2015Playground.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 408.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
