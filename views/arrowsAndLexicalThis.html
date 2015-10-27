@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <span>odds = </span>
+    <span ng-repeat="odd in vm.odds">
+      <span>{{odd}}</span>
+      <span ng-show="$index < vm.odds.length - 1">, </span>
+    </span>
+  </div>
+  <div>
+    <span>nums = </span>
+    <span ng-repeat="number in vm.nums">
+      <span>{{number}}</span>
+      <span ng-show="$index < vm.nums.length - 1">, </span>
+    </span>  
+  </div>
+  <div>
+    <span>fives = </span>
+    <span ng-repeat="five in vm.fives">
+      <span>{{five}}</span>
+      <span ng-show="$index < vm.fives.length - 1">, </span>
+    </span>  
+  </div>
+  <div>
+    <span>friends : </span>
+    <ul>
+      <li ng-repeat="friend in vm.friends">
+        {{friend}}
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
