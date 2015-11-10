@@ -4,9 +4,9 @@
   "description": "A sample project to mess around with ES2015 features",
   "main": "app.js",
   "dependencies": {
-    "babel": "^5.8.29",
+    "babel": "^6.0.15",
     "express": "^4.13.3",
-    "gulp-babel": "^5.3.0",
+    "gulp-babel": "^6.0.0",
     "gulp-plumber": "^1.0.1",
     "gulp-express": "^0.3.5"
   },

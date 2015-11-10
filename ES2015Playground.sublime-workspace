@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"modulesC",
+				"js/controllers/modulesController.js"
+			],
+			[
+				"un",
+				"js/controllers/unicodeController.js"
+			],
+			[
+				"babel",
+				"babel-polyfill"
+			],
+			[
+				"Default",
+				"DefaultRestSpreadController"
+			],
+			[
+				"m",
+				"myOnReadyStateChangeHandler"
+			],
+			[
+				"template",
+				"templateStrings"
+			],
+			[
+				"templ",
+				"templateUrl"
+			],
+			[
 				"bo",
 				"bookShelfModule"
 			]
@@ -12,10 +40,102 @@
 	"buffers":
 	[
 		{
+			"file": "js/controllers/unicodeController.js",
+			"settings":
+			{
+				"buffer_size": 458,
+				"line_ending": "Windows",
+				"name": "class UnicodeController {"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Unicode</title>\n</head>\n<body>\n  <div>{{vm.a}}</div>\n  <div>{{vm.b}}</div>\n  <div>{{vm.c}}</div>\n  <div>{{vm.d}}</div>\n  <span ng-repeat=\"x in vm.e\">\n    {{x}},\n  </span>\n</body>\n",
+			"file": "views/unicode.html",
+			"file_size": 275,
+			"file_write_time": 130906939005207204,
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers/modulesController.js",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/components/mathPlusPlus.js",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/components/math.js",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1758,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers/controllers.js",
+			"settings":
+			{
+				"buffer_size": 1384,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/modules.html",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "Index.html",
 			"settings":
 			{
-				"buffer_size": 1224,
+				"buffer_size": 1783,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers/iteratorsController.js",
+			"settings":
+			{
+				"buffer_size": 544,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/generators.html",
+			"settings":
+			{
+				"buffer_size": 171,
 				"line_ending": "Windows"
 			}
 		}
@@ -27,10 +147,30 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "npm",
+		"height": 311.0,
+		"last_filter": "npm in",
 		"selected_items":
 		[
+			[
+				"npm in",
+				"npm: Install Package"
+			],
+			[
+				"Package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package contri",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Object Method"
+			],
 			[
 				"npm",
 				"npm: List Installed Packages"
@@ -84,7 +224,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -105,10 +245,52 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground"
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/components",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/node_modules/babel-core/lib",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/node_modules/gulp-babel/node_modules",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/node_modules/loud-rejection"
 	],
 	"file_history":
 	[
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/modulesController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/generatorsController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/controllers.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/app.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/unicode.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/node_modules/babel-polyfill/dist/polyfill.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/generators.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/gulpfile.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/Index.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/polyfill.min.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/bootstrap.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/bootstrap.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/defaultRestSpreadController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/destructuringController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/controllers/iteratorsController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/iteratorsController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/iterators.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/app.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/defaultRestSpread.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/controllers/destructuringController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/controllers/enhancedObjectLiteralsController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/destructuring.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/enhancedObjectLiteralsController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/templateStringsController.js",
+		"/C/Users/lnascimb/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/templateStrings.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/enhancedObjectLiterals.html",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/classes.html",
+		"/C/Users/lnascimb/AppData/Roaming/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/C/Users/lnascimb/AppData/Roaming/Sublime Text 3/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/objects/animal.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/controllers/controllers.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/dist/controllers/enhancedObjectLiterals.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/js/controllers/classesController.js",
+		"/C/Users/lnascimb/Documents/GitHub/ES2015Playground/views/arrowsAndLexicalThis.html",
 		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/bootstrap.js",
 		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/bookShelf.directives.js",
 		"/C/Users/lnascimb/Documents/GitHub/Angular-ES6-BookShelf/dist/bookShelf.services.js",
@@ -123,7 +305,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -138,6 +320,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".js",
+			"5",
+			"   \n",
+			"html:5",
+			"5",
 			"addBookForm",
 			"./bookShelf.main",
 			"angular.bootstrap",
@@ -154,6 +341,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -164,24 +352,285 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Index.html",
+					"file": "js/controllers/unicodeController.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1224,
+						"buffer_size": 458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1216,
-								1216
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class UnicodeController {",
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/unicode.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/controllers/modulesController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/bootstrap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/components/mathPlusPlus.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/components/math.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1487,
+								1487
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/controllers/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/modules.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1328,
+								1328
 							]
 						],
 						"settings":
@@ -190,10 +639,74 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "js/controllers/iteratorsController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "views/generators.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -216,11 +729,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.636363636364,
 			1.0
 		],
 		"rows":
@@ -246,7 +766,7 @@
 	"project": "ES2015Playground.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -279,14 +799,30 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		]
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 408.0,
+	"side_bar_width": 296.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
+		"max_columns": 2
 	}
 }

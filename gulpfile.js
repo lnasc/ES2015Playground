@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
   plumber = require('gulp-plumber'),
   server = require('gulp-express'),
-  babel = require('gulp-babel')
+  babel = require('gulp-babel'),
   mergeStream = require('merge-stream');
 
 gulp.task('server', function() {
@@ -13,9 +13,7 @@ gulp.task('babel', function() {
     gulp.src('node_modules/babel-polyfill/dist/polyfill.min.js'),
     gulp.src('js/**/*.js')
     .pipe(plumber())
-    .pipe(babel({
-      modules: 'amd'
-    }))
+    .pipe(babel())
   ).pipe(gulp.dest("dist"));
 });
 

@@ -54,6 +54,26 @@ function config($routeProvider){
     controller: 'modulesController',
     controllerAs: 'vm'
   })
+  .when('/dataStructures', {
+    templateUrl: 'views/dataStructures.html',
+    controller: 'dataStructuresController',
+    controllerAs: 'vm'
+  })
+  .when('/proxies', {
+    templateUrl: 'views/proxies.html',
+    controller: 'proxiesController',
+    controllerAs: 'vm'
+  })
+  .when('/symbols', {
+    templateUrl: 'views/symbols.html',
+    controller: 'symbolsController',
+    controllerAs: 'vm'
+  })
+  .when('/subclassableBuiltIns', {
+    templateUrl: 'views/subclassableBuiltIns.html',
+    controller: 'subclassableBuiltInsController',
+    controllerAs: 'vm'
+  })
   .otherwise({ redirectTo: '/' });
 }
 
